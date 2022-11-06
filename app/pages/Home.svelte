@@ -1,5 +1,5 @@
 <page>
-    <actionBar title="NativeFlix">
+    <actionBar title="NativeFlix - Demo">
     <actionItem
 		ios.systemIcon="9" ios.position="left"
 		android.systemIcon="ic_menu_share" android.position="actionBar" />
@@ -13,7 +13,7 @@
           class="bg-secondary"
           rows="*, auto, auto"
           columns="*"
-          margin="5 10"
+          margin="5 10 5 5"
           padding="0"
         >
           <image row="0" margin="0" stretch="aspectFill" src="https://hatrabbits.com/wp-content/uploads/2017/01/random-word-1.jpg" />
