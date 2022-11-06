@@ -1,7 +1,11 @@
 <page>
-    <actionBar title="NativeFlix" />
+    <actionBar title="NativeFlix">
+    <actionItem
+		ios.systemIcon="9" ios.position="left"
+		android.systemIcon="ic_menu_share" android.position="actionBar" />
+    </actionBar>
     <stackLayout height="100%">
-    <listView height="100%" separatorColor="transparent" items="{flicks}" on:itemTap="{onFlickTap}">
+    <listView height="100%" items="{flicks}" on:itemTap="{onFlickTap}">
       <Template let:item>
          <gridLayout
           height="280"
@@ -32,6 +36,11 @@
         </gridLayout>
       </Template>
     </listView>
+    <segmentedBar>
+	<segmentedBarItem title="First" />
+	<segmentedBarItem title="Second" />
+	<segmentedBarItem title="Third" />
+</segmentedBar>
   </stackLayout>
 </page>
 
